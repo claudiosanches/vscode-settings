@@ -22,7 +22,7 @@
 		"description": "Ignore a block of code in PHPCS"
 	},
 	"PHPCS: Ignore line": {
-		"prefix": "phpcs_ignore_block",
+		"prefix": "phpcs_ignore_line",
 		"body": [
 			"// @codingStandardsIgnoreLine"
 		],
