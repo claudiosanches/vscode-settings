@@ -2,22 +2,25 @@
 	"Print to console": {
 		"prefix": "logger",
 		"body": [
-			"error_log( print_r( ${1:arg}, true ) );",
-			"$2"
+			"error_log( print_r( ${1:arg}, true ) );"
 		],
 		"description": "Log output to console"
 	},
 	"Debug on WordPress": {
 		"prefix": "wp_debug",
 		"body": [
-			"define( 'WP_DEBUG', true );\ndefine( 'WP_DEBUG_LOG', true );\ndefine( 'WP_DEBUG_DISPLAY', true );"
+			"define( 'WP_DEBUG', true );",
+			"define( 'WP_DEBUG_LOG', true );",
+			"define( 'WP_DEBUG_DISPLAY', true );"
 		],
 		"description": "Turn on debug on WordPress wp-config.php"
 	},
 	"PHPCS: Ignore block": {
 		"prefix": "phpcs_ignore_block",
 		"body": [
-			"// @codingStandardsIgnoreStartdefine( 'WP_DEBUG', true );\n$1// @codingStandardsIgnoreEnd"
+			"// @codingStandardsIgnoreStart",
+			"$1",
+			"// @codingStandardsIgnoreEnd"
 		],
 		"description": "Ignore a block of code in PHPCS"
 	},

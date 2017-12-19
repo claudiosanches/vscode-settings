@@ -3,5 +3,17 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Tomorrow Night",
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.rulers": [
+        80
+    ],
+    "editor.detectIndentation": false,
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "all",
+    "php.suggest.basic": false,
+    "workbench.panel.location": "bottom"
 }
