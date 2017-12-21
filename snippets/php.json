@@ -30,5 +30,12 @@
 			"// @codingStandardsIgnoreLine"
 		],
 		"description": "Ignore a line of code in PHPCS"
-	}
+    },
+    "WordPress translators notication": {
+        "prefix": "wp_translators",
+        "body": [
+            "/* translators: %s: ${1:comment} */"
+        ],
+        "description": "WordPress translators notication"
+    }
 }
