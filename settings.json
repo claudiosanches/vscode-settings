@@ -1,6 +1,5 @@
 {
-    "sublimeTextKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.multiCursorModifier": "alt",
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
     "git.confirmSync": false,
@@ -15,5 +14,11 @@
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "all",
     "php.suggest.basic": false,
-    "workbench.panel.location": "bottom"
+    "phpcs.standard": "PSR2",
+    "jshint.enable": false,
+    "javascript.format.enable": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "workbench.statusBar.feedback.visible": false
 }

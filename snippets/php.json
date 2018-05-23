@@ -37,5 +37,49 @@
             "/* translators: %s: ${1:comment} */"
         ],
         "description": "WordPress translators notication"
+    },
+    "WordPress: check for ABSPATH": {
+        "prefix": "wp_exit",
+        "body": [
+            "defined( 'ABSPATH' ) || exit;"
+        ],
+        "description": "Check for ABSPATH before run all file"
+    },
+    "WordPress: plugin header": {
+        "prefix": "wp_plugin_header",
+        "body": [
+            "/**",
+            " * Plugin Name: ${1:Lorem Ipsum}",
+            " * Plugin URI:  https://github.com/claudiosanches/${2:slug}",
+            " * Description: ${3:Lorem Ipsum}",
+            " * Author:      Claudio Sanches",
+            " * Author URI:  https://claudiosanches.com",
+            " * Version:     ${4:0.0.1}",
+            " * License:     GPLv3",
+            " * Text Domain: ${2:slug}",
+            " * Domain Path: /languages",
+            " *",
+            " * Copyright (C) $CURRENT_YEAR Claudio Sanches",
+            " *",
+            " * This program is free software: you can redistribute it and/or modify",
+            " * it under the terms of the GNU General Public License as published by",
+            " * the Free Software Foundation, either version 3 of the License, or",
+            " * (at your option) any later version.",
+            " *",
+            " * This program is distributed in the hope that it will be useful,",
+            " * but WITHOUT ANY WARRANTY; without even the implied warranty of",
+            " * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the",
+            " * GNU General Public License for more details.",
+            " *",
+            " * You should have received a copy of the GNU General Public License",
+            " * along with this program. If not, see <http://www.gnu.org/licenses/>.",
+            " *",
+            " * @package ${5:Package_Name}",
+            " */",
+            "",
+            "defined( 'ABSPATH' ) || exit;",
+            ""
+        ],
+        "description": "Plugin header information"
     }
 }
