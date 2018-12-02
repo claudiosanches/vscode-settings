@@ -19,5 +19,15 @@
         "key": "ctrl+shift+alt+up",
         "command": "-editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+=",
+        "command": "extension.align",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+a",
+        "command": "-extension.align",
+        "when": "editorTextFocus"
     }
 ]
