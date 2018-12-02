@@ -1,5 +1,4 @@
 {
-    "editor.multiCursorModifier": "alt",
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
     "git.confirmSync": false,
@@ -15,10 +14,11 @@
     "editor.renderLineHighlight": "all",
     "php.suggest.basic": false,
     "phpcs.standard": "PSR2",
-    "jshint.enable": false,
     "javascript.format.enable": false,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
-    "workbench.statusBar.feedback.visible": false
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.activityBar.visible": true,
+    "phpcs.showSources": true
 }
