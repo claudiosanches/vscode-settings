@@ -20,5 +20,20 @@
     },
     "workbench.statusBar.feedback.visible": false,
     "workbench.activityBar.visible": true,
-    "phpcs.showSources": true
+    "phpcs.showSources": true,
+    "extensions.recommendations": [
+        "claudiosanches.woocommerce",
+        "claudiosanches.wpcs-whitelist-flags",
+        "dbaeumer.vscode-eslint",
+        "EditorConfig.EditorConfig",
+        "felixfbecker.php-intellisense",
+        "ikappas.phpcs",
+        "ms-vscode.Theme-TomorrowKit",
+        "neilbrayfield.php-docblocker",
+        "PeterJausovec.vscode-docker",
+        "srfrnk.user-extensions",
+        "steve8708.Align",
+        "TomasHubelbauer.vscode-markdown-table-format",
+        "tungvn.wordpress-snippet"
+    ]
 }
