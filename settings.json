@@ -28,12 +28,21 @@
         "EditorConfig.EditorConfig",
         "felixfbecker.php-intellisense",
         "ikappas.phpcs",
+        "mitchdenny.ecdc",
         "ms-vscode.Theme-TomorrowKit",
         "neilbrayfield.php-docblocker",
         "PeterJausovec.vscode-docker",
+        "shakram02.bash-beautify",
         "srfrnk.user-extensions",
         "steve8708.Align",
+        "timonwong.shellcheck",
         "TomasHubelbauer.vscode-markdown-table-format",
-        "tungvn.wordpress-snippet"
-    ]
+        "tungvn.wordpress-snippet",
+        "wongjn.php-sniffer"
+    ],
+    "window.titleBarStyle": "native",
+    "editor.multiCursorModifier": "alt",
+    "bashBeautify.tabSize": 2,
+    "shellcheck.run": "onSave",
+    "shellcheck.disableVersionCheck": true
 }
