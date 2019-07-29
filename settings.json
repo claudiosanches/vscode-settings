@@ -3,7 +3,6 @@
     "editor.formatOnPaste": true,
     "git.confirmSync": false,
     "editor.wordWrap": "on",
-    "workbench.colorTheme": "Tomorrow Night",
     "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
     "editor.rulers": [
@@ -21,28 +20,10 @@
     "workbench.statusBar.feedback.visible": false,
     "workbench.activityBar.visible": true,
     "phpcs.showSources": true,
-    "extensions.recommendations": [
-        "claudiosanches.woocommerce",
-        "claudiosanches.wpcs-whitelist-flags",
-        "dbaeumer.vscode-eslint",
-        "EditorConfig.EditorConfig",
-        "felixfbecker.php-intellisense",
-        "ikappas.phpcs",
-        "mitchdenny.ecdc",
-        "ms-vscode.Theme-TomorrowKit",
-        "neilbrayfield.php-docblocker",
-        "PeterJausovec.vscode-docker",
-        "shakram02.bash-beautify",
-        "srfrnk.user-extensions",
-        "steve8708.Align",
-        "timonwong.shellcheck",
-        "TomasHubelbauer.vscode-markdown-table-format",
-        "tungvn.wordpress-snippet",
-        "wongjn.php-sniffer"
-    ],
     "window.titleBarStyle": "native",
     "editor.multiCursorModifier": "alt",
     "bashBeautify.tabSize": 2,
     "shellcheck.run": "onSave",
-    "shellcheck.disableVersionCheck": true
+    "shellcheck.disableVersionCheck": true,
+    "workbench.colorTheme": "Tomorrow Night"
 }
