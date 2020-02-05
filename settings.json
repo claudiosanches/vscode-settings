@@ -1,6 +1,5 @@
 {
     "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true,
     "git.confirmSync": false,
     "editor.wordWrap": "on",
     "window.zoomLevel": 0,
@@ -11,19 +10,21 @@
     "editor.detectIndentation": false,
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "all",
-    "php.suggest.basic": false,
-    "phpcs.standard": "PSR2",
     "javascript.format.enable": false,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
     "workbench.statusBar.feedback.visible": false,
     "workbench.activityBar.visible": true,
-    "phpcs.showSources": true,
     "window.titleBarStyle": "native",
-    "editor.multiCursorModifier": "alt",
+    "editor.multiCursorModifier": "ctrlCmd",
     "bashBeautify.tabSize": 2,
     "shellcheck.run": "onSave",
     "shellcheck.disableVersionCheck": true,
-    "workbench.colorTheme": "Tomorrow Night"
+    "workbench.colorTheme": "Tomorrow Night",
+    "phpcs.lintOnType": false,
+    "phpcs.showSources": true,
+    "phpcs.executablePath": "./vendor/bin/phpcs",
+    "php.suggest.basic": false,
+    "phpSniffer.executablesFolder": "./vendor/bin/"
 }
