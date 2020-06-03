@@ -21,10 +21,15 @@
     "bashBeautify.tabSize": 2,
     "shellcheck.run": "onSave",
     "shellcheck.disableVersionCheck": true,
-    "workbench.colorTheme": "Tomorrow Night",
     "phpcs.lintOnType": false,
     "phpcs.showSources": true,
     "phpcs.executablePath": "./vendor/bin/phpcs",
     "php.suggest.basic": false,
-    "phpSniffer.executablesFolder": "./vendor/bin/"
+    "workbench.colorTheme": "Tomorrow Night",
+    "phpSniffer.autoDetect": true,
+    "files.defaultLanguage": "markdown",
+    "files.restoreUndoStack": false,
+    "polacode.transparentBackground": true,
+    "polacode.shadow": "rgba(0, 0, 0, 0.55) 0px 5px 20px",
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'Fira Code'"
 }
