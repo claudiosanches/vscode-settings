@@ -10,7 +10,6 @@
     "editor.detectIndentation": false,
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "all",
-    "javascript.format.enable": false,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
@@ -24,12 +23,15 @@
     "phpcs.lintOnType": false,
     "phpcs.showSources": true,
     "phpcs.executablePath": "./vendor/bin/phpcs",
-    "php.suggest.basic": false,
     "workbench.colorTheme": "Tomorrow Night",
     "phpSniffer.autoDetect": true,
     "files.defaultLanguage": "markdown",
     "files.restoreUndoStack": false,
     "polacode.transparentBackground": true,
     "polacode.shadow": "rgba(0, 0, 0, 0.55) 0px 5px 20px",
-    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'Fira Code'"
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'Fira Code'",
+    "[html]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
 }
