@@ -2,7 +2,6 @@
     "editor.snippetSuggestions": "top",
     "git.confirmSync": false,
     "editor.wordWrap": "on",
-    "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
     "editor.rulers": [
         80
@@ -33,5 +32,19 @@
     "[html]": {
         "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
     },
-    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
+    "editor.renderControlCharacters": true,
+    "docker.contexts.label": "DockerEndpoint",
+    "redhat.telemetry.enabled": false,
+    "sshfs.configs": [
+        {
+            "name": "home-assistant",
+            "host": "192.168.1.96",
+            "username": "root",
+            "privateKeyPath": "$HOME/.ssh/id_rsa"
+        }
+    ],
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    }
 }
