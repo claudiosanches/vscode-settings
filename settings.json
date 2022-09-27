@@ -27,8 +27,9 @@
     },
     "php.validate.executablePath": "/home/claudio/.dotfiles/bin/code-php-linter",
     "editor.fontWeight": "normal",
-    "editor.fontFamily": "'Noto Sans Mono', 'monospace', monospace, 'Fira Code'",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "'Ubuntu Mono', monospace, 'Fira Code'",
+    "editor.fontSize": 16,
     "editor.wordWrap": "on",
-    "window.titleBarStyle": "custom"
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.fontSize": 16
 }
