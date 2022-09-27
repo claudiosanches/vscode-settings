@@ -1,7 +1,4 @@
 {
-    "editor.snippetSuggestions": "top",
-    "git.confirmSync": false,
-    "editor.wordWrap": "on",
     "workbench.startupEditor": "newUntitledFile",
     "editor.rulers": [
         80
@@ -12,39 +9,26 @@
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
-    "workbench.statusBar.feedback.visible": false,
     "workbench.activityBar.visible": true,
-    "window.titleBarStyle": "native",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "bashBeautify.tabSize": 2,
-    "shellcheck.run": "onSave",
-    "shellcheck.disableVersionCheck": true,
-    "phpcs.lintOnType": false,
-    "phpcs.showSources": true,
-    "phpcs.executablePath": "./vendor/bin/phpcs",
     "workbench.colorTheme": "Tomorrow Night",
     "phpSniffer.autoDetect": true,
     "files.defaultLanguage": "markdown",
     "files.restoreUndoStack": false,
     "polacode.transparentBackground": true,
     "polacode.shadow": "rgba(0, 0, 0, 0.55) 0px 5px 20px",
-    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'Fira Code'",
     "[html]": {
         "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
     },
     "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
     "editor.renderControlCharacters": true,
     "docker.contexts.label": "DockerEndpoint",
-    "redhat.telemetry.enabled": false,
-    "sshfs.configs": [
-        {
-            "name": "home-assistant",
-            "host": "192.168.1.96",
-            "username": "root",
-            "privateKeyPath": "$HOME/.ssh/id_rsa"
-        }
-    ],
-    "[yaml]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
-    }
+    "files.exclude": {
+        "**/.docker-database": true
+    },
+    "php.validate.executablePath": "/home/claudio/.dotfiles/bin/code-php-linter",
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "'Noto Sans Mono', 'monospace', monospace, 'Fira Code'",
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "window.titleBarStyle": "custom"
 }
